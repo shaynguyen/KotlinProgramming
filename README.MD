@@ -19,3 +19,29 @@ fun main() {
     println(playerName)
 }
 ```
+
+## Chapter 3: Conditionals
+* [Game.kt](NyetHack/src/Game.kt)
+
+expression
+```kotlin
+val auraColor = if (auraVisible) "GREEN" else "NONE"
+```
+
+ranges
+```kotlin
+var coinFlip = if (randomNumber in 1..50) {
+    "HEADS"
+}  else {
+    "TAILS"
+}
+```
+
+when
+```kotlin
+val grade = when (score) {
+    in 90..100 -> "A"
+    in 80..89 -> "B"
+    else -> "F"
+}
+```
